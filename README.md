@@ -20,11 +20,11 @@ The core objectives of this project were:
 
 The analysis was conducted under the following conditions to simulate real-world usage:
 
-* **Load**: A static force of **200 N** was applied to the foot paddle in the negative Z-direction.
-  <img width="395" height="385" alt="image" src="https://github.com/user-attachments/assets/1ad84319-0143-483f-a74a-cc81f906ee6e" />
+* <p>**Load**: A static force of **200 N** was applied to the foot paddle in the negative Z-direction.</p>
+  <p><img width="395" height="385" alt="image" src="https://github.com/user-attachments/assets/1ad84319-0143-483f-a74a-cc81f906ee6e" /></p>
 
-* **Boundary Condition**: The fixed end of the pedal, where it pivots, was **fully constrained**, preventing any movement or rotation.
-  <img width="327" height="306" alt="image" src="https://github.com/user-attachments/assets/60adad95-3d69-4fba-a6cf-75c78cf38fb0" />
+* <p>**Boundary Condition**: The fixed end of the pedal, where it pivots, was **fully constrained**, preventing any movement or rotation.</p>
+  <p><img width="327" height="306" alt="image" src="https://github.com/user-attachments/assets/60adad95-3d69-4fba-a6cf-75c78cf38fb0" /></p>
 
 
 ---
@@ -62,27 +62,25 @@ The final results from the static structural analysis for each lattice type are 
 
 #### Optimized Simple Cubic
 *Stress Distribution*
-![Stress plot for Simple Cubic lattice](<img width="803" height="461" alt="image" src="https://github.com/user-attachments/assets/51fbb7d9-f26b-4933-a9c7-3f52687bc53f" />
-)
+<p><img width="803" height="461" alt="image" src="https://github.com/user-attachments/assets/51fbb7d9-f26b-4933-a9c7-3f52687bc53f" /></p>
+
 *Displacement Plot*
-![Displacement plot for Simple Cubic lattice](<img width="755" height="461" alt="image" src="https://github.com/user-attachments/assets/48a7fd79-dcab-4870-8836-3691afc9b77a" />
-)
+<p><img width="755" height="461" alt="image" src="https://github.com/user-attachments/assets/48a7fd79-dcab-4870-8836-3691afc9b77a" /></p>
 
 #### Optimized BCC
 *Stress Distribution*
-![Stress plot for BCC lattice](<img width="812" height="466" alt="image" src="https://github.com/user-attachments/assets/a383d795-cc57-46a8-ba3c-5a7db0dae437" />
-)
+<p>(<img width="812" height="466" alt="image" src="https://github.com/user-attachments/assets/a383d795-cc57-46a8-ba3c-5a7db0dae437" /></p>
+
 *Displacement Plot*
-![Displacement plot for BCC lattice](<img width="810" height="457" alt="image" src="https://github.com/user-attachments/assets/9570752d-6b86-4e73-9725-e09626c27f5f" />
-)
+<p><img width="810" height="457" alt="image" src="https://github.com/user-attachments/assets/9570752d-6b86-4e73-9725-e09626c27f5f" /></p>
+
 
 #### Optimized FCC
 *Stress Distribution*
-![Stress plot for FCC lattice](<img width="811" height="477" alt="image" src="https://github.com/user-attachments/assets/20c05a10-5a35-4a87-9b03-4344b034ac7a" />
-)
+<p><img width="811" height="477" alt="image" src="https://github.com/user-attachments/assets/20c05a10-5a35-4a87-9b03-4344b034ac7a" /></p>
+
 *Displacement Plot*
-![Displacement plot for FCC lattice](<img width="807" height="480" alt="image" src="https://github.com/user-attachments/assets/a4b1d92e-fd34-43a1-b419-9b1e58351ce7" />
-)
+<p><img width="807" height="480" alt="image" src="https://github.com/user-attachments/assets/a4b1d92e-fd34-43a1-b419-9b1e58351ce7" /></p>
 
 ---
 
