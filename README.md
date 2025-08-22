@@ -20,10 +20,10 @@ The core objectives of this project were:
 
 The analysis was conducted under the following conditions to simulate real-world usage:
 
-* <p>**Load**: A static force of **200 N** was applied to the foot paddle in the negative Z-direction.</p>
+* **Load**: A static force of **200 N** was applied to the foot paddle in the negative Z-direction.
   <p><img width="395" height="385" alt="image" src="https://github.com/user-attachments/assets/1ad84319-0143-483f-a74a-cc81f906ee6e" /></p>
 
-* <p>**Boundary Condition**: The fixed end of the pedal, where it pivots, was **fully constrained**, preventing any movement or rotation.</p>
+* **Boundary Condition**: The fixed end of the pedal, where it pivots, was **fully constrained**, preventing any movement or rotation.
   <p><img width="327" height="306" alt="image" src="https://github.com/user-attachments/assets/60adad95-3d69-4fba-a6cf-75c78cf38fb0" /></p>
 
 
