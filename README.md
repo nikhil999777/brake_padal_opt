@@ -10,9 +10,9 @@ This project focuses on the structural optimization of a vehicle brake pedal usi
 ## 🎯 Objective
 
 The core objectives of this project were:
-* [cite_start]To optimize the material distribution of a standard brake pedal model. [cite: 3]
-* [cite_start]To utilize **nTopology's Topology Driven Latticing** tool to create lightweight yet strong designs. [cite: 4]
-* [cite_start]To perform a comparative analysis of the results based on **stress**, **displacement**, and **percentage of weight reduction** for each design variation. [cite: 7]
+* To optimize the material distribution of a standard brake pedal model.
+* To utilize **nTopology's Topology Driven Latticing** tool to create lightweight yet strong designs.
+* To perform a comparative analysis of the results based on **stress**, **displacement**, and **percentage of weight reduction** for each design variation.
 
 ---
 
@@ -20,8 +20,12 @@ The core objectives of this project were:
 
 The analysis was conducted under the following conditions to simulate real-world usage:
 
-* [cite_start]**Load**: A static force of **200 N** was applied to the foot paddle in the negative Z-direction. [cite: 5]
-* [cite_start]**Boundary Condition**: The fixed end of the pedal, where it pivots, was **fully constrained**, preventing any movement or rotation. [cite: 6]
+* **Load**: A static force of **200 N** was applied to the foot paddle in the negative Z-direction.
+  <img width="395" height="385" alt="image" src="https://github.com/user-attachments/assets/1ad84319-0143-483f-a74a-cc81f906ee6e" />
+
+* **Boundary Condition**: The fixed end of the pedal, where it pivots, was **fully constrained**, preventing any movement or rotation.
+  <img width="327" height="306" alt="image" src="https://github.com/user-attachments/assets/60adad95-3d69-4fba-a6cf-75c78cf38fb0" />
+
 
 ---
 
@@ -48,8 +52,8 @@ The final results from the static structural analysis for each lattice type are 
 | Optimized FCC | 64.41 | **14.83** | 22.48% |
 
 ### Key Observations:
-* [cite_start]**Simple Cubic Lattice**: Achieved the **highest weight reduction** (33.05%) but at the cost of the **highest displacement** (24.90 mm), indicating lower stiffness. 
-* [cite_start]**BCC Lattice**: Experienced the **highest maximum stress** (97.95 MPa), which could be a concern for material failure or fatigue over time. 
+* **Simple Cubic Lattice**: Achieved the **highest weight reduction** (33.05%) but at the cost of the **highest displacement** (24.90 mm), indicating lower stiffness. 
+* **BCC Lattice**: Experienced the **highest maximum stress** (97.95 MPa), which could be a concern for material failure or fatigue over time. 
 * **FCC Lattice**: Provided the most **balanced performance**. [cite_start]It offered a significant weight reduction (22.48%) while maintaining the **lowest displacement** (14.83 mm) and a low maximum stress (64.41 MPa), making it the most robust and stiffest design of the three. 
 
 ---
@@ -58,21 +62,27 @@ The final results from the static structural analysis for each lattice type are 
 
 #### Optimized Simple Cubic
 *Stress Distribution*
-![Stress plot for Simple Cubic lattice](<URL_to_Simple_Cubic_Stress_Image.png>)
+![Stress plot for Simple Cubic lattice](<img width="803" height="461" alt="image" src="https://github.com/user-attachments/assets/51fbb7d9-f26b-4933-a9c7-3f52687bc53f" />
+)
 *Displacement Plot*
-![Displacement plot for Simple Cubic lattice](<URL_to_Simple_Cubic_Displacement_Image.png>)
+![Displacement plot for Simple Cubic lattice](<img width="755" height="461" alt="image" src="https://github.com/user-attachments/assets/48a7fd79-dcab-4870-8836-3691afc9b77a" />
+)
 
 #### Optimized BCC
 *Stress Distribution*
-![Stress plot for BCC lattice](<URL_to_BCC_Stress_Image.png>)
+![Stress plot for BCC lattice](<img width="812" height="466" alt="image" src="https://github.com/user-attachments/assets/a383d795-cc57-46a8-ba3c-5a7db0dae437" />
+)
 *Displacement Plot*
-![Displacement plot for BCC lattice](<URL_to_BCC_Displacement_Image.png>)
+![Displacement plot for BCC lattice](<img width="810" height="457" alt="image" src="https://github.com/user-attachments/assets/9570752d-6b86-4e73-9725-e09626c27f5f" />
+)
 
 #### Optimized FCC
 *Stress Distribution*
-![Stress plot for FCC lattice](<URL_to_FCC_Stress_Image.png>)
+![Stress plot for FCC lattice](<img width="811" height="477" alt="image" src="https://github.com/user-attachments/assets/20c05a10-5a35-4a87-9b03-4344b034ac7a" />
+)
 *Displacement Plot*
-![Displacement plot for FCC lattice](<URL_to_FCC_Displacement_Image.png>)
+![Displacement plot for FCC lattice](<img width="807" height="480" alt="image" src="https://github.com/user-attachments/assets/a4b1d92e-fd34-43a1-b419-9b1e58351ce7" />
+)
 
 ---
 
